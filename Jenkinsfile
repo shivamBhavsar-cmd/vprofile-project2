@@ -35,14 +35,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts artifacts: '**/target/*.war',
-                    // jacoco(
-                    //     execPattern: 'target/jacoco.exec',
-                    //     classPattern: 'target/classes',
-                    //     sourcePattern: 'src/main/java',
-                    //     exclusionPattern: '**/test/**'
-                    // )
-                    // archiveArtifacts artifacts: '**/*.war'
+                    archiveArtifacts artifacts: '**/target/*.war'
                 }
             }
         }
