@@ -25,7 +25,7 @@ pipeline {
 
         stage('Fetch Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/shivamBhavsar-cmd/vprofile-project2.git'
+                git branch: 'atom', url: 'https://github.com/hkhcoder/vprofile-project.git'
             }
         }
 
