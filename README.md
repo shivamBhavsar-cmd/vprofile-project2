@@ -165,7 +165,7 @@ stage('UploadArtifact') {
     }
 }
 ```
-![jenkins-final-output.png]
+![Jenkins Dashboard after succesfull pipeline](jenkins-final-output.png)
 
 ### 8. Notifications
 ```groovy
@@ -177,7 +177,7 @@ post {
     }
 }
 ```
-![slack-notification-jenkins-trigger.png]
+![Slack Notification](slack-notification-jenkins-trigger.png)
 
 ---
 
