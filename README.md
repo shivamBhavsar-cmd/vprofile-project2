@@ -165,6 +165,7 @@ stage('UploadArtifact') {
     }
 }
 ```
+### Dashboard view of Jnekins pipeline
 ![Jenkins Dashboard after succesfull pipeline](jenkins-final-output.png)
 
 ### 8. Notifications
@@ -177,6 +178,7 @@ post {
     }
 }
 ```
+# Slack NOtification whene the job's triggers.
 ![Slack Notification](slack-notification-jenkins-trigger.png)
 
 ---
