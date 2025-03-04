@@ -40,6 +40,16 @@ pipeline {
             }
         }
 
+        // For DDos integration in pipeline 
+        // stage('Run DDoS Detection Model') {
+        //     steps {
+        //         script {
+        //             sh 'python3 ddos_detection.py'
+        //             archiveArtifacts artifacts: '*.png' // Saving generated images
+        //         }
+        //     }
+        // }
+
         stage('UNIT TEST & Code Coverage') {
             steps {
                 sh 'mvn test jacoco:report'
